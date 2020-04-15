@@ -84,7 +84,7 @@ yarn start
 yarn dev
 ````
 <h5>
-Para testes, utilize um client de requisições http, como Insomnia ou Postman, e um banco de dados Postgres, local, com Docker ou da forma que preferir.
+Para testes, utilize um client de requisições http, como Insomnia ou Postman, e um banco de dados Postgres local, com Docker ou da forma que preferir.
 </h5>
   
 <h4> Mobile: </h4>
@@ -94,7 +94,7 @@ expo start
 ````
 
 <h5> 
-Para testes, utilize dispositivo físico, ou emuladores como o Simulador do XCode para iOS, ou AVD do AndroidStudio para Android. 
+Para testes, utilize um dispositivo físico, ou emuladores como o Simulador do XCode para iOS, ou AVD do AndroidStudio para Android. 
 </h5>
 
 ## 🏗️ Buildando o Aplicativo Móvel
