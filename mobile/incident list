@@ -1,0 +1,32 @@
+<IncidentsList
+        data={incidents}
+        keyExtractor={(incident) => String(incident.id)}
+        showsVerticalScrollIndicator={false}
+        onEndReached={loadIncidents}
+        onEndReachedThreshold={0.6}
+        renderItem={({ item: incident }) => (
+          <Incident>
+            <OngProperty>ONG:</OngProperty>
+            <PropertyValue>{incident.ong.name}</PropertyValue>
+            <OngProperty>CASO:</OngProperty>
+            <PropertyValue>{incident.title}</PropertyValue>
+            <OngProperty>VALOR</OngProperty>
+            <PropertyValue>
+              {Intl.NumberFormat("pt-BR", {
+                style: "currency",
+                currency: "BRL",
+              }).format(incident.amount)}
+            </PropertyValue>
+            <DetailsButton
+              onPress={() => {
+                navigateToDetail(incident);
+              }}
+            >
+              <DetailsText>Ver mais detalhes</DetailsText>
+              <DetailsIcon>
+                <Feather name="arrow-right" size={20} color="#e02041" />
+              </DetailsIcon>
+            </DetailsButton>
+          </Incident>
+        )}
+      ></IncidentsList>
