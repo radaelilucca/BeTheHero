@@ -106,7 +106,7 @@ Para buildar o aplicativo em APK ou IPA, é necessário preencher devidamente o 
 </br>
 
 ## ➕ Como contribuir
-- Primeiramente deixe uma ⭐! 
+- Primeiramente deixe uma ⭐;
 - Faça um fork deste repositório;
 - Cria uma branch com a sua feature: `git checkout -b minha-feature`;
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
