@@ -47,7 +47,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O BeTheHero é um projeto que visa conectar ONGs a pessoas dispostas a ajudar com seus casos, os Super Heróis!
 <p>Desenvolvido durante a Semana Omnistack 11.0 da <a href="https://rocketseat.com.br/">Rocketseat</a>!</p>
 
-<p> Acesse a versão web em: <a href="https://www.bethehero-web.club/"> BeTheHero Web</a>! </p>
+<p> Acesse a versão web em: <a href="https://bethehero-frontend-web.herokuapp.com/"> BeTheHero Web</a>! </p>
 <p>Baixe a versão mobile na Google Play Store:<a href="https://bit.ly/361acjz"> BeTheHero Android</a> </p>
 </br>
 
